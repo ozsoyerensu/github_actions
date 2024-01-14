@@ -1,8 +1,6 @@
 
 name: Shell commands
-on: [push]
-jobs:
-	run-shell-command:
+on: [pusrun-shell-command:
 	runs-on: ${{ matrix.os }}
 	strategy:
 	matrix:
